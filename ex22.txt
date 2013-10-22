@@ -1,17 +1,28 @@
-print 
-#
-+
--
-/
-*
-%
-<
->
-<=
->=
-=
-"
-'
-%d
-%r
-%s
+print -  writes to output. Converts to string. 
+# - make comments
+%d - integer
+%r - string 
+%s - string
+%i - integer
++ - add
+- - subtract
+/ - divide
+* - multiply
+< - less than
+> - greater than
+<= - less than or equal
+>= - greater than or equal
+= - assign variable a value 
+== - checks two values against each other
+""" - documentation, or makes strings last several lines
+=+ - variable is equal, adding to the right
+formatter - transform an abstract flow of formatting events into specific output
+\\ - makes a \ 
+\t - tab - indents
+\n - new line 
+raw_input - reads a line from input, converts to string, and returns that
+import - import statement 
+open() - open a dile using the file() type, then returns a file object
+len - return the number of items of a sequence or mapping
+def - define functions etc
+
