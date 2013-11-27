@@ -34,22 +34,6 @@ def print_first_and_last_sorted(sentence):
     print_first_word(words)
     print_last_word(words)
 
-# sentence = "All good\tthings come to those who weight."
-
-# words = ex26.break_words(sentence)
-# sorted_words = ex26.sort_words(words)
-
-# ex26.print_first_word(words)
-# ex26.print_last_word(words)
-# ex26.print_first_word(sorted_words)
-# ex26.print_last_word(sorted_words)
-# ex26.sorted_words = ex26.sort_sentence(sentence)
-# sorted_words
-
-# ex26.print_first_and_last(sentence)
-
-# ex26.print_first_and_last_sorted(sentence)
-
 
 print "Let's practice everything."
 print 'You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.'
@@ -89,4 +73,19 @@ start_point = start_point / 10
 print "We can also do that this way:"
 print "We'd have %d beans, %d jars, and %d crates." % secret_formula(start_point)
 
+import ex25
+sentence = "All good\tthings come to those who weight."
 
+words = ex25.break_words(sentence)
+sorted_words = ex25.sort_words(words)
+
+print_first_word(words)
+print_last_word(words)
+print_first_word(sorted_words)
+print_last_word(sorted_words)
+sorted_words = ex25.sort_sentence(sentence)
+sorted_words
+
+print_first_and_last(sentence)
+
+print_first_and_last_sorted(sentence)
