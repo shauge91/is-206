@@ -1,4 +1,5 @@
-is-206
+is-206 exercises
 ======
 
 sveinh11
+Sveinung 
